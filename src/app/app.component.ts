@@ -96,7 +96,7 @@ export class AppComponent implements OnInit {
       ],
     },
     {
-      title: 'login',
+      title: 'User login',
       formProperties: [
         {
           type: 'text',

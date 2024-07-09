@@ -1,9 +1,13 @@
-.container{
+/* .container{
     display: flex;
     justify-content: center;
     align-items: center;
-   
-}
+    text-align: center;
+} */
+ .container{
+    display: grid;
+    grid-template-columns: auto auto 
+ }
 form{
     background-color: rgb(199, 191, 180);
     padding: 10px;
@@ -51,6 +55,6 @@ br{
       
      }
      .container{
-        flex-direction: column;
+        grid-template-columns: auto
      }
   }

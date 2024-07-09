@@ -1,5 +1,6 @@
 <div class="container">
   <div *ngFor="let dynamic of allForms;let FormIndex=index">
+    <h1>{{dynamic.title}}</h1>
   <form [formGroup]="forms[FormIndex]" (ngSubmit)="handleForm(FormIndex)">
     <div *ngFor="let element of dynamic.formProperties">
       <label [for]="element.name">{{ element.label }}</label
