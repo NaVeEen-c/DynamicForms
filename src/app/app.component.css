@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+form{
+    background-color: rgb(199, 191, 180);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    
+   
+}
+form div{
+   
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* form div label{
+    display: inline-flex;
+    
+} */
+p{
+    text-align: center;
+}
+input,select{
+    padding: 5px;
+    border-radius: 5px;
+}
+br{
+    display: none;
+}
+@media screen and (max-width: 900px) {
+    br{
+        display: block;
+    }
+    form div{
+        display: block;
+        
+    }
+  
+     #radio,#checkbox{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        
+      
+     }
+     .container{
+        flex-direction: column;
+     }
+  }
